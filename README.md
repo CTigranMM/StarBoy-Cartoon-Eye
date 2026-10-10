@@ -1,9 +1,8 @@
 # PocketBuddy Eyes
 
-<video width="400" autoplay loop muted playsinline>
-  <source src="preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Eye Animation Preview](preview.mp4)
+
+*(If the video doesn't play in your current markdown viewer, you can [view it directly here](preview.mp4))*
 
 Fluid, 3D animated eyes for the GC9A01A round LCD display. 
 
