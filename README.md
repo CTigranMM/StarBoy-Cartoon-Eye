@@ -1,7 +1,7 @@
 # PocketBuddy Eyes
 
 **Hardware Demo:**
-[👉 Click here to watch the Hardware Demo Video](https://github.com/CTigranMM/StarBoy-Cartoon-Eye/raw/main/Video.mp4)
+[Click here to watch the Hardware Demo Video](https://github.com/CTigranMM/StarBoy-Cartoon-Eye/raw/main/Video.mp4)
 
 **Generated Preview:**
 ![Eye Animation Preview](preview.gif)
