@@ -70,3 +70,6 @@ void loop() {
     eyes.update(); 
 }
 ```
+
+## Use of AI
+This codebase was extracted from the original Pocket-Buddy project and refactored into a clean, standalone C++ library with the assistance of AI.
