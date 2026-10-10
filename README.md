@@ -1,7 +1,7 @@
 # PocketBuddy Eyes
 
 **Hardware Demo:**
-<video src="Video.mp4" width="400" controls autoplay loop muted playsinline></video>
+[👉 Click here to watch the Hardware Demo Video](https://github.com/CTigranMM/StarBoy-Cartoon-Eye/raw/main/Video.mp4)
 
 **Generated Preview:**
 ![Eye Animation Preview](preview.gif)
