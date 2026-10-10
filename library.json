@@ -1,0 +1,27 @@
+{
+  "name": "PocketBuddyEyes",
+  "version": "1.0.0",
+  "description": "Fluid, 3D animated eyes for GC9A01A displays. Includes built-in physics and math mask generation.",
+  "keywords": [
+    "display",
+    "animation",
+    "eyes",
+    "gc9a01a",
+    "graphics"
+  ],
+  "authors": [
+    {
+      "name": "Gurt"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/gc9a01a-eye-animation"
+  },
+  "dependencies": {
+    "adafruit/Adafruit GFX Library": "^1.11.0",
+    "adafruit/Adafruit GC9A01A": "^1.1.0"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}
