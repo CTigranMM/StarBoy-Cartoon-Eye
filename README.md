@@ -1,6 +1,9 @@
 # PocketBuddy Eyes
 
-![GC9A01A Eye Animation Preview](preview.jpg)
+<video width="400" autoplay loop muted playsinline>
+  <source src="preview.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Fluid, 3D animated eyes for the GC9A01A round LCD display. 
 
@@ -73,3 +76,6 @@ void loop() {
 
 ## Use of AI
 This codebase was extracted from the original Pocket-Buddy project and refactored into a clean, standalone C++ library with the assistance of AI.
+
+## Keywords
+*Starboy keychain, cartoon eyes, GC9A01A, round LCD, digital companion, robot eyes, expressive eyes, physics animation, ESP32 display, open source starboy, little guy keychain.*
