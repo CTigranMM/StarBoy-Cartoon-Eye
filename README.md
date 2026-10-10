@@ -1,16 +1,28 @@
 # PocketBuddy Eyes
 
+![GC9A01A Eye Animation Preview](preview.jpg)
+
 Fluid, 3D animated eyes for the GC9A01A round LCD display. 
 
-This library packages up a 60FPS physics-based eye animation system (with 3D perspective distortion, squashing, blinking, and Hooke's Law spring-damper physics) into an easy-to-use C++ class.
+This library was extracted from a larger personal project (Pocket-Buddy) to make the eye animation code open-source, resulting in a cleaner, easily reusable codebase. The visual style and concept are heavily inspired by the Starboy keychain product (https://hesjustalittleguy.com/).
+
+It packages a 60FPS physics-based eye animation system into a simple C++ class.
+
+## Features
+- Dynamic 60FPS animation system
+- Hooke's Law spring-damper physics for natural, bouncy movements
+- 3D perspective distortion during movement
+- Automatic blinking, squashing, and stretching behaviors
+- Mathematical mask generation (no external image assets required)
 
 ## Hardware Requirements
-- ESP32 (Tested on ESP32-S3)
-- GC9A01A Round LCD Display
+- Microcontroller with sufficient RAM and speed (Tested on ESP32-S3)
+- GC9A01A Round LCD Display (240x240 pixels)
 
 ## Installation
+
 ### PlatformIO
-Add the library to your `platformio.ini`:
+Add the library to your `platformio.ini` file:
 ```ini
 lib_deps =
     adafruit/Adafruit GFX Library
@@ -19,11 +31,11 @@ lib_deps =
 ```
 
 ### Arduino IDE
-Download this repository as a `.zip` and install it via **Sketch > Include Library > Add .ZIP Library...**
+Download this repository as a `.zip` file and install it via Sketch > Include Library > Add .ZIP Library...
 
 ## Usage
 
-Check out the [`examples/BasicAnimation`](examples/BasicAnimation) folder for a complete runnable example. Here is a quick snippet:
+Check out the `examples/BasicAnimation` folder for a complete runnable example. Here is a quick snippet:
 
 ```cpp
 #include <Arduino.h>
@@ -54,6 +66,7 @@ void setup() {
 }
 
 void loop() {
-    eyes.update(); // Handles physics, framerate, and drawing automatically
+    // Handles physics, framerate, and drawing automatically
+    eyes.update(); 
 }
 ```
