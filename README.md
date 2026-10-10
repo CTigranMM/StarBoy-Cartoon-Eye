@@ -1,5 +1,9 @@
 # PocketBuddy Eyes
 
+**Hardware Demo:**
+<video src="Video.mp4" width="400" controls autoplay loop muted playsinline></video>
+
+**Generated Preview:**
 ![Eye Animation Preview](preview.gif)
 
 Fluid, 3D animated eyes for the GC9A01A round LCD display. 
